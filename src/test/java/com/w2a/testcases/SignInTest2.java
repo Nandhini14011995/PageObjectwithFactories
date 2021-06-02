@@ -34,6 +34,7 @@ public class SignInTest2 {
 	@AfterMethod
 	public void tearDown(){
 		if(Page.driver!=null){
+			System.out.println("Closing Browser");
 		Page.quitBrowser();
 		}
 	}
